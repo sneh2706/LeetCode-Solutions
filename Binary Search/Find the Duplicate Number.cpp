@@ -1,4 +1,8 @@
-// Another approach - Using bits (will be implementing later.)
+/*
+
+Given an array nums containing n + 1 integers where each integer is between 1 and n (inclusive), prove that at least one duplicate number must exist. Assume that there is only one duplicate number, find the duplicate one.
+
+*/
 
 class Solution {
 public:  
@@ -60,5 +64,3 @@ public:
         return 0;
     }
 };
-
-// Complexity of above solution - Time: O(nlogn), space : O(n)
